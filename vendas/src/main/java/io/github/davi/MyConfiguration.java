@@ -9,6 +9,7 @@ import org.springframework.util.SystemPropertyUtils;
 @Development
 public class MyConfiguration {
 
+
     @Bean
     public CommandLineRunner executar(){
         return args -> {
